@@ -1,0 +1,14 @@
+.header{
+    margin-left:35%;
+    margin-top:5%;
+    position:sticky;
+}
+
+a{
+    text-decoration: none;
+    padding:1%;
+    background-color:	rgba(75,0,130,0.5);
+    color:white;
+    border-radius: 10%;
+
+}

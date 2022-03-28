@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@300&display=swap');
+
+.tabledesign{
+    border:1px solid gray;
+    margin-top:5%;
+    margin-left:20%;
+    padding:2%;
+}
+
+table {
+  font-family:cursive;
+    border-collapse: collapse;
+    color:purple;
+  }
+  th{
+    font-weight: lighter;
+  }
+  td, th {
+    border: 1px solid #dddddd;
+    padding: 8px;
+  }
+
+  tr:nth-child(even) {
+    background-color:	rgb(75,0,130,0.2);
+    border:1px solid white;
+  }
+
+  .buttoni{
+    background-color: transparent;
+    
+  }
+
+  .profile{
+    height:30px;
+    width:40px;
+  }
+
+  .display{
+    display:flex;
+    gap:6%;
+    justify-content: space-between;
+  }
+
+  @media (max-width:480px){
+  .tabledesign{
+    margin-left:0%;
+    display:block;
+    overflow-x: scroll;
+  }
+
+  }
+
+  @media (min-width:481px) and (max-width:768px){
+    .tabledesign{
+      margin-left:5%;
+      display:block;
+      overflow-x: scroll;
+    }
+  
+    }
